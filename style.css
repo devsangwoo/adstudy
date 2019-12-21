@@ -1,0 +1,33 @@
+.Wrapper {
+    display: grid;
+
+    grid-template-rows: 1fr 500px 4fr;
+
+    grid-column-gap: 20px;
+    border: solid;
+
+}
+
+
+.box {
+    border: solid
+}
+
+.box:nth-child(1) {
+    background-color: #523737;
+
+
+}
+
+.box:nth-child(2) {
+    background-color: yellowgreen;
+}
+
+.box:nth-child(3) {
+    background-color: royalblue;
+
+}
+
+.fa {
+    color: seashell;
+}
