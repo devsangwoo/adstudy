@@ -1,0 +1,21 @@
+.Wrapper {
+    display: grid;
+    grid-template-rows: 1fr 6fr 1fr;
+    border: solid;
+    grid-row-gap: 30px;
+
+}
+
+.box {
+    border: solid;
+
+}
+
+.box:nth-child(1) {
+    background-color: #573737;
+
+}
+
+.fa {
+    color: white;
+}

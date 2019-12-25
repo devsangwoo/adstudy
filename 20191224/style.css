@@ -1,0 +1,46 @@
+.Wrapper {
+    display: grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    border: solid;
+    grid-row-gap: 30px;
+}
+
+.header {
+    background-color: #523737;
+}
+
+.header_top {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    border: solid;
+    color: white;
+}
+
+.header_bottom {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    border: solid;
+    color: white;
+}
+
+.search-bar i {
+    text-align: center;
+    top: 20px;
+    left: 40px;
+    color: gray
+}
+
+.friend_section_row img {
+
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+    animation: 1s rotateFriend infinite ease-in-out;
+
+}
+
+.item:nth-child(3) {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+
+}
