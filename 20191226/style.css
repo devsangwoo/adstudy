@@ -1,0 +1,11 @@
+.Wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: solid;
+}
+
+.header_top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid;
+}
